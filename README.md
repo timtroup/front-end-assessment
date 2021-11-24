@@ -52,7 +52,7 @@ Feel free to fork this repo or start from scratch.
 * It is up to you to decide how to handle the dates. Using a framework such as date-fns is fine, but you may find it easier to write your own date utilities.
 * The provided unit tests are quite thorough. Therfore if your solution does not pass all edge cases it may still be considered. However, you should expect to be able to talk about this at a later interview.
 * You are free to extend or replace the test suite if you wish.
-* We are interested in SOLID, concise code. Consider this when designing and structuring your solution. Also consider how your design decisions help tackle the alogirthmic complexity of the challenge. 
+* We are interested in SOLID, concise code. Consider this when designing and structuring your solution. Also consider how your design decisions help tackle the algorithmic complexity of the challenge. 
 * There is no strict time limit, but as a guide, past candidates have said it cab be done in around 3 hours of focused work.
 * Our machines are running Windows, so make sure you test your build appropriately!
 * You may have noticed the `"engines"` config in the package.json. We will be be using at least the minimum version of node specified there to build your solution.
