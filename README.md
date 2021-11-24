@@ -11,7 +11,7 @@ Short Stay
 Long Stay
      £7.50 per day or part day including weekends, so the minimum charge will be for one day.
 
-Design and code an application or library in Typescript (or JS if preferred) that will be used to calculate the total cost of a visit to the car park. We have already written specs to validate your calculatons, and stubs for those specs to call. Feel free to replace those stubs as desired.
+Design and code an application or library in Typescript (or JS if preferred) that will be used to calculate the total cost of a visit to the car park. We have already written specs to validate your calculations, and stubs for those specs to call. Feel free to replace those stubs if desired.
 
 A UI is not required, however if you wish to create one please feel free.
 
@@ -31,7 +31,7 @@ This scaffold is a simple typescript library with no ui elements. To install and
 
 ```bash
 npm i
-npm test:watch
+npm run test:watch
 ```
 To build the solution, the following command may be used:
 ```
