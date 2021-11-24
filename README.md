@@ -27,17 +27,24 @@ A long stay from 07/09/2017 07:50:00 to 09/09/2017 05:20:00 would cost £22.50
 
 This repo contains the skeleton of a Typescript Library solution, feel free to use this as a starting point. Starting from scratch is also fine if you wish to use different a different approach (e.g. Javascript, Webpack, Esbuild, Create-React-App).
 
-This scaffold is a simple typescript library with no ui elements. To install and run tests, the following commands may be used:
+This scaffold is a simple typescript library with no ui elements. 
+
+To install modules, run the following command:
 
 ```bash
 npm i
-npm run test:watch
 ```
+
 To build the solution, the following command may be used:
 ```
 npm run build
 ```
 
+Tests can be ran in watch mode or in a single run as shown below:
+```bash
+npm run test:watch
+npm run test
+```
 ## Submitting your Solution
 
 Our firewall will likely block any .zip attachments to emails. Therefore, a link is greatly preferred (e.g. github or gitlab repo). 
