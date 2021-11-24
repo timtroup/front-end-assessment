@@ -53,7 +53,7 @@ Feel free to fork this repo or start from scratch.
 
 **If you change how the build works, please ensure you update or replace this README.md with new instructions.**
 
-### Tips
+## Tips
 
 * Documentation of your thought process is appreciated. For example, explaining any assumptions or decisions you make, or improvements that you could later implement.
 * It is up to you to decide how to handle the dates. Using a framework such as date-fns is fine, but you may find it easier to write your own date utilities.
