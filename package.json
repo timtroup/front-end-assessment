@@ -2,7 +2,7 @@
   "name": "@hotdocs/parking-calculator",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "lib/parking-calculator.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
