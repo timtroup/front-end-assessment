@@ -150,7 +150,6 @@ describe("Long Stay", () => {
   test("Stay from epoch to second day after epoch calculated correctly", () => {
     let start = new Date(0);
     let end = new Date("January 02 1970 12:00:00");
-
     expect(calculateLongStay(start, end)).toEqual(1500);
   });
 
