@@ -1,0 +1,34 @@
+{
+  "name": "@hotdocs/parking-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/parking-calculator.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "prebuild": "rimraf lib && rimraf coverage",
+    "build": "tsc"
+  },
+  "author": "dcoxon@abacusnext.com",
+  "license": "None",
+  "devDependencies": {
+    "babel-jest": "27.3.1",
+    "jest": "27.3.1",
+    "rimraf": "3.0.2",
+    "ts-jest": "27.0.7",
+    "typescript": "4.5.2"
+  },
+  "dependencies": {
+    "@types/jest": "27.0.3"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/lib/"
+    ]
+  }
+}
